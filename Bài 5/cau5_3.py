@@ -1,0 +1,5 @@
+print("le van an")
+print("235752021610044")
+S = input("Nhap chuoi: ")
+result = ''.join([ch for ch in S if not ch.isdigit()])
+print(result)
