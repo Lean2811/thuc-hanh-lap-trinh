@@ -6,6 +6,6 @@ print(a,end=" ")
 while (a <=4000000-1):
     if a % 2 == 0:
          total += a
-    a, bb, a+b
+    a, b =b, a+b
     print(a,end="")
 print("\n sum of prime numbers term in fibonacci series: ",total)
