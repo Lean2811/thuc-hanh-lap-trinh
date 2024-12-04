@@ -1,11 +1,7 @@
 print("le van an")
 print("235752021610044")
-a = "Hello Guy!"
-
-def say():
-    global a
-    a = "Vinh University"
-    print(a)
-
-say()
-print(a)
+ds = input('danh sach:').split()
+print(ds)
+for so in ds:
+    so=ds[::-1]
+print(so)
